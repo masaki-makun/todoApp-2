@@ -38,5 +38,9 @@ export default {
   modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {}
+  build: {},
+  publicPath:
+    process.env.NODE_ENV === "production"
+      ? "/weather-app/" //任意
+      : "/"
 };
