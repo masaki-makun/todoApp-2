@@ -7,7 +7,7 @@
       </div>
       <h1 class="title" :class="bgToggleClass">ToDo App</h1>
       <div class="toggle-button-wrap">
-        <p class="text greething">{{ nowGreething }}</p>
+        <p class=" greething">{{ nowGreething }}</p>
 
         <div class="link-area">
           <nuxt-link to="/" class=" back-button">
