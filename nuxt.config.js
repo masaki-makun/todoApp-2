@@ -39,6 +39,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-  publicPath: "/",
-  outputDir: "docs/"
+  router: {
+    base: "/todoApp-2/"
+  },
+  generate: {
+    dir: "docs"
+  }
 };
